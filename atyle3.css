@@ -1,0 +1,32 @@
+body {
+    font-family: arial;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+
+.step3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+fieldset {
+    padding-right: 80px;
+    padding-top: 18px;
+}
+
+.option{
+    margin-bottom: 15px;
+}
+
+.comment{
+    font-weight: bold;
+    display: flex;
+}
+
+.radio{
+    margin-bottom: 20px;
+}

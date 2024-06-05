@@ -1,0 +1,126 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    font-family: arial;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.mainheading {
+    text-align: center;
+}
+
+.info,
+p {
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.info {
+    padding: 10px, 0px, 0px, 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.option,
+p {
+    font-weight: bold;
+}
+
+.nextstep,
+.imnext {
+    display: flex;
+    justify-content: center;
+}
+
+.nextstep,
+.imnext {
+    height: 100px;
+}
+
+
+/* ...........................................Form Step 1 styling................................................. */
+
+/* ..............................................button styling....................................................... */
+
+.button {
+    display: flex;
+}
+
+.button,
+.backtohome {
+    width: 125px;
+    height: 35px;
+}
+
+.nextbutton,
+.next_to_secondpage {
+    width: 125px;
+    height: 35px;
+}
+
+/* ...............................................Form styling...................................... */
+
+.form1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    ;
+}
+
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 22px;
+    padding: 7px;
+    width: 300px;
+}
+
+fieldset {
+    padding-right: 80px;
+    padding-top: 18px;
+}
+
+
+/* ..........................................step2 styling ..................................................... */
+
+.form2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"] {
+    margin-bottom: 22px;
+    padding: 7px;
+    width: 300px;
+}
+
+fieldset {
+    padding-right: 80px;
+    padding-top: 18px;
+}
+
+/* ......................................step 3 styling.................................................. */
+
